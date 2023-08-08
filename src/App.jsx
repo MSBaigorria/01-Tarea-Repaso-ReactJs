@@ -1,16 +1,17 @@
 
 import './styles/index.css';
 import './styles/features.css';
-import NavbarMenu from './components/NavbarMenu';
-import Banner from './components/Banner';
-import Novedades from './components/Novedades';
+
+import Navbar from './components/Navbar/Navbar';
+import Banner from './components/Banner/Banner';
+import Noticias from './components/Noticias/Noticias';
 
 const App = () => {
   return (
     <>
-      <NavbarMenu/>
+      <Navbar/>
       <Banner/>
-      <Novedades/>
+      <Noticias/>
     </>
   );
 }
