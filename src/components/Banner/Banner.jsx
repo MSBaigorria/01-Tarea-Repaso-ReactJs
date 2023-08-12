@@ -4,11 +4,11 @@ import BannerCallToAction from "./BannerCallToAction"
 
 const Banner = () => {
   return (
-    <><box>
+    <><div>
         <div className='bg-white p-5 text-center'>
          <BannerCallToAction/>
         </div>
-      </box></>
+      </div></>
   )
 }
 
